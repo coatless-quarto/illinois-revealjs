@@ -1,0 +1,100 @@
+---
+title: Overview of the Illinois Revealjs Theme
+subtitle: "Your Course - Semester YYYY @ Illinois"
+author: First Last
+date: last-modified
+format:
+  illinois-revealjs: default
+---
+
+# Title-Only Slide
+
+You can also include text under the slide, but you should reserve the first header just for section changes. 
+
+## Sample Slide Title
+
+### Example of a subtitle
+
+We can create unordered lists:
+
+- first item 
+    - A sub item
+
+Or ordered lists
+
+1. Ordered list first item
+    1. Nested list item
+
+Or **bold**, *italic*, or [URL](https://illinois.edu) text.
+
+## Mathematics
+
+Inline mode: $c^2 = a^2 + b^2$
+
+Display mode: 
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+
+## Columns
+
+We could also split content between two columns:
+
+::: {.columns}
+
+::: {.column width="45%"}
+Left column
+:::
+
+::: {.column width="45%"}
+Right column
+:::
+
+:::
+
+<https://quarto.org/docs/presentations/revealjs/#multiple-columns>
+
+## Code Highlighting
+
+For continuous highlighting, use `from-to` (`6-8`).
+
+For discontinuous highlighting, use `line1, line2, ...` (`1, 4`).
+
+To highlight lines in a progressive manner, use `range1|range2` (`|1,4|6-8`). 
+
+```{.python code-line-numbers="|6|9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+<https://quarto.org/docs/presentations/revealjs/#code-blocks>
+
+## Summary {#sec-summary}
+
+### Illinois-themed presentation slide deck
+
+The Quarto Illinois Revealjs theme is an extension of Reveal.js and
+offers all of its [features](https://quarto.org/docs/presentations/revealjs/) in the context of being brand friendly at Illinois.
+
+Install the theme without this template:
+
+```bash
+quarto install extension coatless/quarto-illinois
+```
+
+Install the theme with the template being present:
+
+```bash
+quarto use template coatless/quarto-illinois
+```
+
+You can learn more about using RevealJS with Quarto at: <https://quarto.org/docs/presentations/revealjs/>
+
