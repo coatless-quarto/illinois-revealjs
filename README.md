@@ -32,9 +32,19 @@ date: last-modified
 ---
 ```
 
+If you wanted to use other [reveal.js features in quarto](https://quarto.org/docs/presentations/revealjs/), add the options under the `illinois-revealjs` format. For example, we can use the [`chalkboard`](https://quarto.org/docs/presentations/revealjs/presenting.html#chalkboard) feature by setting: 
+
+```yaml
+format:
+  illinois-revealjs: 
+    chalkboard: true
+```
+
 ## Example
 
-Here is the source code for a minimal example: [example.qmd](example.qmd).
+See the included [template.qmd](template.qmd) file for an example of the slide deck:
+
+![](title-slide-quarto-illinois.png)
 
 ## Developer Notes
 
@@ -47,7 +57,6 @@ quarto create extension format:revealjs
 From there, we incorporated a modified version of the [Beamer Metropolis](https://github.com/matze/mtheme) that was ported into a [Quarto theme](https://codeberg.org/pat-s/quarto-metropolis) by [Patrick Schratz](https://pat-s.me/) ([Post](https://pat-s.me/quarto-metropolis-theme/)). 
 
 
-
 ## Acknowledgements
 
 This theme is built ontop of the design and implementation work of [Matthias Vogelgesang](https://bloerg.net/) ([Beamer Metropolis](https://github.com/matze/mtheme)) and [Patrick Schratz](https://pat-s.me/) ([Quarto Metropolis theme](https://codeberg.org/pat-s/quarto-metropolis)).
@@ -57,3 +66,4 @@ We also appreciate for [Shafayet Khan Shafee](https://github.com/shafayetShafee)
 Additionally, we relied upon the following documentation:
 
 - [Quarto Documentation: Custom Formats](https://quarto.org/docs/extensions/formats.html)
+- [Quarto Revealjs Clean Theme](https://github.com/grantmcdermott/quarto-revealjs-clean) by [Grant McDermott](https://github.com/grantmcdermott)

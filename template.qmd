@@ -35,7 +35,6 @@ Display mode:
 
 $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
-
 ## Columns
 
 We could also split content between two columns:
@@ -76,6 +75,16 @@ plt.show()
 ```
 
 <https://quarto.org/docs/presentations/revealjs/#code-blocks>
+
+## Enable more revealjs features
+
+The theme is built ontop of Quarto's `revealjs` implementation. So, any [features](https://quarto.org/docs/presentations/revealjs/) of available are also usable within the theme. For example, if we wanted to incorporate the [chalkboard](https://quarto.org/docs/presentations/revealjs/presenting.html#chalkboard) feature. We would use:
+
+```yaml
+format:
+  illinois-revealjs: 
+    chalkboard: true
+```
 
 ## Summary {#sec-summary}
 
