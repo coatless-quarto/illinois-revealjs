@@ -2,6 +2,8 @@
 
 A [quarto extension](https://quarto.org/docs/extensions/) featuring an [Illinois-inspired theme](https://marketing.illinois.edu/visual-identity/color) for the [reveal.js format](https://quarto.org/docs/presentations/revealjs/).
 
+![](title-slide-quarto-illinois.png)
+
 ## Installing
 
 You can obtain a copy of the extension by using: 
@@ -42,9 +44,7 @@ format:
 
 ## Example
 
-See the included [template.qmd](template.qmd) file for an example of the slide deck:
-
-![](title-slide-quarto-illinois.png)
+See the included [template.qmd](template.qmd) file for an example of the theme and integration into Quarto.
 
 ## Developer Notes
 
