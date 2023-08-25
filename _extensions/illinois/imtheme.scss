@@ -204,7 +204,7 @@ h2::after.title {
     width: 120px;
     top: 18px;
     right: -75px;
-    background-image: url(/logo-illinois-block-i.png); /* not ideal.*/
+    background-image: url(../../../../../logo-illinois-block-i.png); /* Better than using an absolute path, though this can't be the best way to include an image! */
     background-repeat: no-repeat;
     background-size: contain;
 }
