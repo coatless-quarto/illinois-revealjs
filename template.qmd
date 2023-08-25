@@ -59,9 +59,9 @@ For continuous highlighting, use `from-to` (`6-8`).
 
 For discontinuous highlighting, use `line1, line2, ...` (`1, 4`).
 
-To highlight lines in a progressive manner, use `range1|range2` (`|1,4|6-8`). 
+To highlight lines in a progressive manner, use `range1|range2` (`|6-8|1,4|`). 
 
-```{.python code-line-numbers="|6|9"}
+```{.python code-line-numbers="|6-8|1,4|"}
 import numpy as np
 import matplotlib.pyplot as plt
 
