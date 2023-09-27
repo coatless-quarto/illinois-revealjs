@@ -22,9 +22,6 @@ jobs:
       # To render using knitr, we need a few more setup steps...
       # If we didn't want the examples to use `engine: knitr`, we could
       # skip a few of the setup steps.
-      - name: "Setup pandoc"
-        uses: r-lib/actions/setup-pandoc@v2
-
       - name: "Setup R"
         uses: r-lib/actions/setup-r@v2
 
