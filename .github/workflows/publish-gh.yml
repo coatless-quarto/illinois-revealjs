@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     # Only restrict concurrency for non-PR jobs
     concurrency:
-      group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
+      group: quarto-website-${{ github.event_name != 'pull_request' || github.run_id }}
     permissions:
       contents: write
     steps:
@@ -28,11 +28,11 @@ jobs:
       - name: "Setup R dependencies for Quarto's knitr engine"
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages:
-            any::knitr
-            any::rmarkdown
-            any::downlit
-            any::xml2
+            packages:
+              any::knitr
+              any::rmarkdown
+              any::downlit
+              any::xml2
 
       # Back to our regularly scheduled Quarto output
       - name: "Set up Quarto"
