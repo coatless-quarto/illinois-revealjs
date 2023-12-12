@@ -11,7 +11,7 @@ See the included [template.qmd](template.qmd) file for an example of the theme a
 You can obtain a copy of the extension by using:
 
 ```bash
-quarto use template coatless-quarto/quarto-illinois
+quarto use template coatless-quarto/illinois-revealjs
 ```
 
 This will install the extension and create an example qmd file that
