@@ -8,13 +8,13 @@ See the included [template.qmd](template.qmd) file for an example of the theme a
 
 ## Installing
 
-You can obtain a copy of the extension by using: 
+You can obtain a copy of the extension by using:
 
 ```bash
-quarto use template coatless/quarto-illinois
+quarto use template coatless-quarto/quarto-illinois
 ```
 
-This will install the extension and create an example qmd file that 
+This will install the extension and create an example qmd file that
 you can use as a starting place for your presentation slides.
 
 ## Using
@@ -36,24 +36,23 @@ date: last-modified
 ---
 ```
 
-If you wanted to use other [reveal.js features in quarto](https://quarto.org/docs/presentations/revealjs/), add the options under the `illinois-revealjs` format. For example, we can use the [`chalkboard`](https://quarto.org/docs/presentations/revealjs/presenting.html#chalkboard) feature by setting: 
+If you wanted to use other [reveal.js features in quarto](https://quarto.org/docs/presentations/revealjs/), add the options under the `illinois-revealjs` format. For example, we can use the [`chalkboard`](https://quarto.org/docs/presentations/revealjs/presenting.html#chalkboard) feature by setting:
 
 ```yaml
 format:
-  illinois-revealjs: 
+  illinois-revealjs:
     chalkboard: true
 ```
 
 ## Developer Notes
 
-We created the quarto extension for the revealjs format by using: 
+We created the quarto extension for the revealjs format by using:
 
 ```sh
 quarto create extension format:revealjs
 ```
 
-From there, we incorporated a modified version of the [Beamer Metropolis](https://github.com/matze/mtheme) that was ported into a [Quarto theme](https://codeberg.org/pat-s/quarto-metropolis) by [Patrick Schratz](https://pat-s.me/) ([Post](https://pat-s.me/quarto-metropolis-theme/)). 
-
+From there, we incorporated a modified version of the [Beamer Metropolis](https://github.com/matze/mtheme) that was ported into a [Quarto theme](https://codeberg.org/pat-s/quarto-metropolis) by [Patrick Schratz](https://pat-s.me/) ([Post](https://pat-s.me/quarto-metropolis-theme/)).
 
 ## Acknowledgements
 
