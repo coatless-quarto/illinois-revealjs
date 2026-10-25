@@ -96,13 +96,13 @@ offers all of its [features](https://quarto.org/docs/presentations/revealjs/) in
 Install the theme without this template:
 
 ```bash
-quarto install extension coatless/quarto-illinois
+quarto add coatless-quarto/illinois-revealjs
 ```
 
 Install the theme with the template being present:
 
 ```bash
-quarto use template coatless/quarto-illinois
+quarto use template coatless-quarto/illinois-revealjs
 ```
 
 You can learn more about using RevealJS with Quarto at: <https://quarto.org/docs/presentations/revealjs/>
