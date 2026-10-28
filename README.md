@@ -6,6 +6,8 @@ A [quarto extension](https://quarto.org/docs/extensions/) featuring an [Illinois
 
 See the included [template.qmd](template.qmd) file for an example of the theme and integration into Quarto or explore the rendered version [here](http://quarto.thecoatlessprofessor.com/illinois-revealjs/).
 
+Blog posts about this extension are on [The Coatless Professor blog](https://blog.thecoatlessprofessor.com/projects/illinois-revealjs/).
+
 ## Installing
 
 You can obtain a copy of the extension by using:
