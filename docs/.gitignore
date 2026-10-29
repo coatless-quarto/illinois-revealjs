@@ -1,0 +1,8 @@
+/.quarto/
+/_site/
+# Copied in from the repository root when the site builds (see .github/workflows/publish-gh.yml)
+/_extensions/
+/template.qmd
+/title-slide-quarto-illinois.png
+
+**/*.quarto_ipynb

@@ -1,0 +1,95 @@
+---
+title: "Home"
+format:
+  html:
+    toc: false
+---
+
+The `illinois-revealjs` extension gives Quarto's [reveal.js format](https://quarto.org/docs/presentations/revealjs/) an **unofficial** [Illinois-inspired theme](https://marketing.illinois.edu/visual-identity/color).
+
+[![](title-slide-quarto-illinois.png){fig-alt="Title slide of the demo deck in the Illinois theme: the title Overview of the Illinois Revealjs Theme and the subtitle Your Course - Semester YYYY @ Illinois in dark slate, a thin orange rule, the author First Last and the date May 25, 2023, with the slide number 1 / 8 at the top right and the orange block I at the bottom right."}](template.qmd)
+
+The [demo slides](template.qmd) are the `template.qmd` that `quarto use template` gives you, rendered with the current theme ([source](https://github.com/coatless-quarto/illinois-revealjs/blob/main/template.qmd)).
+
+## Installing
+
+To start a new presentation, run this in an empty folder:
+
+```bash
+quarto use template coatless-quarto/illinois-revealjs
+```
+
+This will install the extension and create an example qmd file that you can use as a starting place for your presentation slides.
+
+To add the theme to a project you already have, run:
+
+```bash
+quarto add coatless-quarto/illinois-revealjs
+```
+
+## Using
+
+Once the extension is installed, set the `format` inside of the document header to `illinois-revealjs`:
+
+```markdown
+---
+title: A title
+subtitle: A subtitle
+format:
+  illinois-revealjs: default
+author:
+  - name: Your Name
+    orcid: 0000-0000-0000-0000
+    email: alias@email.com
+    affiliations: Your Institution
+date: last-modified
+---
+```
+
+Any other [reveal.js feature in Quarto](https://quarto.org/docs/presentations/revealjs/) goes under the `illinois-revealjs` format. For example, the [`chalkboard`](https://quarto.org/docs/presentations/revealjs/presenting.html#chalkboard) feature:
+
+```yaml
+format:
+  illinois-revealjs:
+    chalkboard: true
+```
+
+## What the theme sets
+
+The format builds on Quarto's default reveal.js theme and adds:
+
+| Setting | Value |
+|---|---|
+| Logo | the Illinois block I, at the bottom right of every slide |
+| Slide numbers | on |
+| Date format | long, such as May 25, 2023 |
+| Fonts | Fira Sans for text, Fira Code for code |
+| Title slide | title, subtitle, author and date in dark slate, `#1A292C` |
+| Rules | a thin orange line, `#EB811B`, under the subtitle and under section titles |
+| Links | Illinois orange, `#E84A27` |
+| Background | `#FAFAFA` |
+
+The logo, slide numbers and date format can be changed in the document header like any other reveal.js option. The fonts and colors come from the theme's stylesheet, `_extensions/illinois/imtheme.scss`.
+
+## Developer Notes
+
+We created the quarto extension for the revealjs format by using:
+
+```sh
+quarto create extension format:revealjs
+```
+
+From there, we incorporated a modified version of the [Beamer Metropolis](https://github.com/matze/mtheme) that was ported into a [Quarto theme](https://codeberg.org/pat-s/quarto-metropolis) by [Patrick Schratz](https://pat-s.me/) ([Post](https://pat-s.me/quarto-metropolis-theme/)).
+
+This site lives in `docs/`, which `.quartoignore` keeps out of the files `quarto use template` copies. When it builds, the workflow copies `_extensions/`, `template.qmd` and the title slide image in from the repository root, so the demo always shows the theme as it is on `main`.
+
+## Acknowledgements
+
+This theme is built on top of the design and implementation work of [Matthias Vogelgesang](https://bloerg.net/) ([Beamer Metropolis](https://github.com/matze/mtheme)) and [Patrick Schratz](https://pat-s.me/) ([Quarto Metropolis theme](https://codeberg.org/pat-s/quarto-metropolis)).
+
+We also appreciate [Shafayet Khan Shafee](https://github.com/shafayetShafee) for making available an alternative port known as [`metropolis-revealjs`](https://github.com/shafayetShafee/metropolis) based on the gist containing [`metropolis.css`](https://gist.github.com/vhodges/e37893eecde3f3333150) by [Vince Hodges](https://github.com/vhodges).
+
+Additionally, we relied upon the following documentation:
+
+- [Quarto Documentation: Custom Formats](https://quarto.org/docs/extensions/formats.html)
+- [Quarto Revealjs Clean Theme](https://github.com/grantmcdermott/quarto-revealjs-clean) by [Grant McDermott](https://github.com/grantmcdermott)

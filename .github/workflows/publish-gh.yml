@@ -38,8 +38,15 @@ jobs:
       - name: "Set up Quarto"
         uses: quarto-dev/quarto-actions/setup@v2
 
+      # docs/ is kept out of `quarto use template` by .quartoignore, so the site
+      # borrows the theme, the template and its screenshot from the repository root
+      - name: "Copy the theme and its template into the docs"
+        run: |
+          cp -R _extensions docs/
+          cp template.qmd title-slide-quarto-illinois.png docs/
+
       - name: "Render and Publish"
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: template.qmd
+          path: docs
