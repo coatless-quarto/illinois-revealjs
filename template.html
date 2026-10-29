@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="template_files/libs/clipboard/clipboard.min.js"></script>
-<script src="template_files/libs/quarto-html/tabby.min.js"></script>
-<script src="template_files/libs/quarto-html/popper.min.js"></script>
-<script src="template_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="template_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="template_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="template_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.10.19">
 
   <meta name="author" content="First Last">
   <meta name="dcterms.date" content="2026-10-29">
-  <title>Overview of the Illinois Revealjs Theme</title>
+  <title>illinois-revealjs – Overview of the Illinois Revealjs Theme</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="template_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="template_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -102,11 +102,11 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="template_files/libs/revealjs/dist/theme/quarto-0d1060d854e2b55c6face647aab5ad2b.css">
-  <link href="template_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="template_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="template_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="template_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-0d1060d854e2b55c6face647aab5ad2b.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -259,58 +259,59 @@ First Last
 <p>For continuous highlighting, use <code>from-to</code> (<code>6-8</code>).</p>
 <p>For discontinuous highlighting, use <code>line1, line2, ...</code> (<code>1, 4</code>).</p>
 <p>To highlight lines in a progressive manner, use <code>range1|range2</code> (<code>|6-8|1,4|</code>).</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-code-line-numbers="|6-8|1,4|"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="" aria-label="1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-2"><a href="" aria-label="2"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-3"><a href="" aria-label="3"></a></span>
-<span id="cb1-4"><a href="" aria-label="4"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
-<span id="cb1-5"><a href="" aria-label="5"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
-<span id="cb1-6"><a href="" aria-label="6"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: <span class="st">'polar'</span>})</span>
-<span id="cb1-7"><a href="" aria-label="7"></a>ax.plot(theta, r)</span>
-<span id="cb1-8"><a href="" aria-label="8"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
-<span id="cb1-9"><a href="" aria-label="9"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb1-10"><a href="" aria-label="10"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-code-line-numbers="|6-8|1,4|"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a aria-label="1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a aria-label="2"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a aria-label="3"></a></span>
+<span id="cb1-4"><a aria-label="4"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb1-5"><a aria-label="5"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb1-6"><a aria-label="6"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: <span class="st">'polar'</span>})</span>
+<span id="cb1-7"><a aria-label="7"></a>ax.plot(theta, r)</span>
+<span id="cb1-8"><a aria-label="8"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb1-9"><a aria-label="9"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb1-10"><a aria-label="10"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><a href="https://quarto.org/docs/presentations/revealjs/#code-blocks" class="uri">https://quarto.org/docs/presentations/revealjs/#code-blocks</a></p>
 </section>
 <section id="enable-more-revealjs-features" class="slide level2">
 <h2>Enable more revealjs features</h2>
 <p>The theme is built ontop of Quarto’s <code>revealjs</code> implementation. So, any <a href="https://quarto.org/docs/presentations/revealjs/">features</a> of available are also usable within the theme. For example, if we wanted to incorporate the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#chalkboard">chalkboard</a> feature. We would use:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="" aria-label="1"></a><span class="fu">format</span><span class="kw">:</span></span>
-<span id="cb2-2"><a href="" aria-label="2"></a><span class="at">  </span><span class="fu">illinois-revealjs</span><span class="kw">:</span><span class="at"> </span></span>
-<span id="cb2-3"><a href="" aria-label="3"></a><span class="at">    </span><span class="fu">chalkboard</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a aria-label="1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb2-2"><a aria-label="2"></a><span class="at">  </span><span class="fu">illinois-revealjs</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb2-3"><a aria-label="3"></a><span class="at">    </span><span class="fu">chalkboard</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="sec-summary" class="slide level2">
 <h2>Summary</h2>
 <h3 id="illinois-themed-presentation-slide-deck">Illinois-themed presentation slide deck</h3>
 <p>The Quarto Illinois Revealjs theme is an extension of Reveal.js and offers all of its <a href="https://quarto.org/docs/presentations/revealjs/">features</a> in the context of being brand friendly at Illinois.</p>
 <p>Install the theme without this template:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="" aria-label="1"></a><span class="ex">quarto</span> install extension coatless/quarto-illinois</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a aria-label="1"></a><span class="ex">quarto</span> install extension coatless/quarto-illinois</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Install the theme with the template being present:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="" aria-label="1"></a><span class="ex">quarto</span> use template coatless/quarto-illinois</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a aria-label="1"></a><span class="ex">quarto</span> use template coatless/quarto-illinois</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>You can learn more about using RevealJS with Quarto at: <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a></p>
+
 
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="_extensions/illinois/logo-illinois-block-i.png" class="slide-logo"></p>
+<p><img src="site_libs/quarto-contrib/quarto-project/illinois/logo-illinois-block-i.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="template_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="template_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="template_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="template_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="template_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="template_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="template_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="template_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="template_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="template_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -575,7 +576,7 @@ First Last
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/coatless-quarto\.github\.io\/illinois-revealjs\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }

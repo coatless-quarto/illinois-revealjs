@@ -1,0 +1,144 @@
+[
+  {
+    "objectID": "template.html#sample-slide-title",
+    "href": "template.html#sample-slide-title",
+    "title": "Overview of the Illinois Revealjs Theme",
+    "section": "Sample Slide Title",
+    "text": "Sample Slide Title\nExample of a subtitle\nWe can create unordered lists:\n\nfirst item\n\nA sub item\n\n\nOr ordered lists\n\nOrdered list first item\n\nNested list item\n\n\nOr bold, italic, or URL text.",
+    "crumbs": [
+      "Demo slides"
+    ]
+  },
+  {
+    "objectID": "template.html#mathematics",
+    "href": "template.html#mathematics",
+    "title": "Overview of the Illinois Revealjs Theme",
+    "section": "Mathematics",
+    "text": "Mathematics\nInline mode: \\(c^2 = a^2 + b^2\\)\nDisplay mode:\n\\[x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\]",
+    "crumbs": [
+      "Demo slides"
+    ]
+  },
+  {
+    "objectID": "template.html#columns",
+    "href": "template.html#columns",
+    "title": "Overview of the Illinois Revealjs Theme",
+    "section": "Columns",
+    "text": "Columns\nWe could also split content between two columns:\n\n\nLeft column\n\nRight column\n\nhttps://quarto.org/docs/presentations/revealjs/#multiple-columns",
+    "crumbs": [
+      "Demo slides"
+    ]
+  },
+  {
+    "objectID": "template.html#code-highlighting",
+    "href": "template.html#code-highlighting",
+    "title": "Overview of the Illinois Revealjs Theme",
+    "section": "Code Highlighting",
+    "text": "Code Highlighting\nFor continuous highlighting, use from-to (6-8).\nFor discontinuous highlighting, use line1, line2, ... (1, 4).\nTo highlight lines in a progressive manner, use range1|range2 (|6-8|1,4|).\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\nhttps://quarto.org/docs/presentations/revealjs/#code-blocks",
+    "crumbs": [
+      "Demo slides"
+    ]
+  },
+  {
+    "objectID": "template.html#enable-more-revealjs-features",
+    "href": "template.html#enable-more-revealjs-features",
+    "title": "Overview of the Illinois Revealjs Theme",
+    "section": "Enable more revealjs features",
+    "text": "Enable more revealjs features\nThe theme is built ontop of Quarto’s revealjs implementation. So, any features of available are also usable within the theme. For example, if we wanted to incorporate the chalkboard feature. We would use:\nformat:\n  illinois-revealjs: \n    chalkboard: true",
+    "crumbs": [
+      "Demo slides"
+    ]
+  },
+  {
+    "objectID": "template.html#sec-summary",
+    "href": "template.html#sec-summary",
+    "title": "Overview of the Illinois Revealjs Theme",
+    "section": "Summary",
+    "text": "Summary\nIllinois-themed presentation slide deck\nThe Quarto Illinois Revealjs theme is an extension of Reveal.js and offers all of its features in the context of being brand friendly at Illinois.\nInstall the theme without this template:\nquarto install extension coatless/quarto-illinois\nInstall the theme with the template being present:\nquarto use template coatless/quarto-illinois\nYou can learn more about using RevealJS with Quarto at: https://quarto.org/docs/presentations/revealjs/",
+    "crumbs": [
+      "Demo slides"
+    ]
+  },
+  {
+    "objectID": "qillinois-revealjs-release-notes.html",
+    "href": "qillinois-revealjs-release-notes.html",
+    "title": "Release Notes",
+    "section": "",
+    "text": "Formally implemented the Illinois-inspired Revealjs theme for Quarto as a Quarto Custom Format Extension.",
+    "crumbs": [
+      "Extra",
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "qillinois-revealjs-release-notes.html#features",
+    "href": "qillinois-revealjs-release-notes.html#features",
+    "title": "Release Notes",
+    "section": "",
+    "text": "Formally implemented the Illinois-inspired Revealjs theme for Quarto as a Quarto Custom Format Extension.",
+    "crumbs": [
+      "Extra",
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "The illinois-revealjs extension gives Quarto’s reveal.js format an unofficial Illinois-inspired theme.\nThe demo slides are the template.qmd that quarto use template gives you, rendered with the current theme (source).",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#installing",
+    "href": "index.html#installing",
+    "title": "Home",
+    "section": "Installing",
+    "text": "Installing\nTo start a new presentation, run this in an empty folder:\nquarto use template coatless-quarto/illinois-revealjs\nThis will install the extension and create an example qmd file that you can use as a starting place for your presentation slides.\nTo add the theme to a project you already have, run:\nquarto add coatless-quarto/illinois-revealjs",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#using",
+    "href": "index.html#using",
+    "title": "Home",
+    "section": "Using",
+    "text": "Using\nOnce the extension is installed, set the format inside of the document header to illinois-revealjs:\n---\ntitle: A title\nsubtitle: A subtitle\nformat:\n  illinois-revealjs: default\nauthor:\n  - name: Your Name\n    orcid: 0000-0000-0000-0000\n    email: alias@email.com\n    affiliations: Your Institution\ndate: last-modified\n---\nAny other reveal.js feature in Quarto goes under the illinois-revealjs format. For example, the chalkboard feature:\nformat:\n  illinois-revealjs:\n    chalkboard: true",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#what-the-theme-sets",
+    "href": "index.html#what-the-theme-sets",
+    "title": "Home",
+    "section": "What the theme sets",
+    "text": "What the theme sets\nThe format builds on Quarto’s default reveal.js theme and adds:\n\n\n\n\n\n\n\nSetting\nValue\n\n\n\n\nLogo\nthe Illinois block I, at the bottom right of every slide\n\n\nSlide numbers\non\n\n\nDate format\nlong, such as May 25, 2023\n\n\nFonts\nFira Sans for text, Fira Code for code\n\n\nTitle slide\ntitle, subtitle, author and date in dark slate, #1A292C\n\n\nRules\na thin orange line, #EB811B, under the subtitle and under section titles\n\n\nLinks\nIllinois orange, #E84A27\n\n\nBackground\n#FAFAFA\n\n\n\nThe logo, slide numbers and date format can be changed in the document header like any other reveal.js option. The fonts and colors come from the theme’s stylesheet, _extensions/illinois/imtheme.scss.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-notes",
+    "href": "index.html#developer-notes",
+    "title": "Home",
+    "section": "Developer Notes",
+    "text": "Developer Notes\nWe created the quarto extension for the revealjs format by using:\nquarto create extension format:revealjs\nFrom there, we incorporated a modified version of the Beamer Metropolis that was ported into a Quarto theme by Patrick Schratz (Post).\nThis site lives in docs/, which .quartoignore keeps out of the files quarto use template copies. When it builds, the workflow copies _extensions/, template.qmd and the title slide image in from the repository root, so the demo always shows the theme as it is on main.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Home",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThis theme is built on top of the design and implementation work of Matthias Vogelgesang (Beamer Metropolis) and Patrick Schratz (Quarto Metropolis theme).\nWe also appreciate Shafayet Khan Shafee for making available an alternative port known as metropolis-revealjs based on the gist containing metropolis.css by Vince Hodges.\nAdditionally, we relied upon the following documentation:\n\nQuarto Documentation: Custom Formats\nQuarto Revealjs Clean Theme by Grant McDermott",
+    "crumbs": [
+      "Home"
+    ]
+  }
+]
