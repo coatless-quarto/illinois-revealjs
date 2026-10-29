@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "illinois-revealjs"
+  reader-mode: true
+  repo-url: https://github.com/coatless-quarto/illinois-revealjs/
+  repo-subdir: docs
+  repo-branch: main
+  repo-actions: [edit, issue]
+  sidebar:
+    style: "floating"
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/coatless-quarto/illinois-revealjs/
+    contents:
+      - text: "Home"
+        file: index.qmd
+      - text: "Demo slides"
+        href: template.qmd
+      - section: "Extra"
+        contents:
+        - qillinois-revealjs-release-notes.qmd
+        - href: https://blog.thecoatlessprofessor.com/projects/illinois-revealjs/
+          text: "Blog posts"
+
+format:
+  html:
+    toc: true

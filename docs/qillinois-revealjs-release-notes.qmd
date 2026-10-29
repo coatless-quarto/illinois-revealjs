@@ -1,0 +1,15 @@
+---
+title: "Release Notes"
+date: "05-25-2023"
+date-modified: last-modified
+engine: markdown
+format:
+  html:
+    toc: true
+---
+
+# 1.0.0: Illinois-inspired Revealjs Theme for Quarto (05-25-2023)
+
+## Features
+
+- Formally implemented the Illinois-inspired Revealjs theme for Quarto as a Quarto Custom Format Extension.

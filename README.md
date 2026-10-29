@@ -2,9 +2,9 @@
 
 A [quarto extension](https://quarto.org/docs/extensions/) featuring an [Illinois-inspired theme](https://marketing.illinois.edu/visual-identity/color) for the [reveal.js format](https://quarto.org/docs/presentations/revealjs/).
 
-[![](title-slide-quarto-illinois.png)](http://quarto.thecoatlessprofessor.com/illinois-revealjs/)
+[![](title-slide-quarto-illinois.png)](https://quarto.thecoatlessprofessor.com/illinois-revealjs/template.html)
 
-See the included [template.qmd](template.qmd) file for an example of the theme and integration into Quarto or explore the rendered version [here](http://quarto.thecoatlessprofessor.com/illinois-revealjs/).
+See the included [template.qmd](template.qmd) file for an example of the theme and integration into Quarto or explore the rendered version [here](https://quarto.thecoatlessprofessor.com/illinois-revealjs/template.html). The documentation lives at <https://quarto.thecoatlessprofessor.com/illinois-revealjs/>.
 
 Blog posts about this extension are on [The Coatless Professor blog](https://blog.thecoatlessprofessor.com/projects/illinois-revealjs/).
 
