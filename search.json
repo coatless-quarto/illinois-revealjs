@@ -54,7 +54,7 @@
     "href": "template.html#sec-summary",
     "title": "Overview of the Illinois Revealjs Theme",
     "section": "Summary",
-    "text": "Summary\nIllinois-themed presentation slide deck\nThe Quarto Illinois Revealjs theme is an extension of Reveal.js and offers all of its features in the context of being brand friendly at Illinois.\nInstall the theme without this template:\nquarto install extension coatless/quarto-illinois\nInstall the theme with the template being present:\nquarto use template coatless/quarto-illinois\nYou can learn more about using RevealJS with Quarto at: https://quarto.org/docs/presentations/revealjs/",
+    "text": "Summary\nIllinois-themed presentation slide deck\nThe Quarto Illinois Revealjs theme is an extension of Reveal.js and offers all of its features in the context of being brand friendly at Illinois.\nInstall the theme without this template:\nquarto add coatless-quarto/illinois-revealjs\nInstall the theme with the template being present:\nquarto use template coatless-quarto/illinois-revealjs\nYou can learn more about using RevealJS with Quarto at: https://quarto.org/docs/presentations/revealjs/",
     "crumbs": [
       "Demo slides"
     ]
