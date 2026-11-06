@@ -67,6 +67,12 @@ Additionally, we relied upon the following documentation:
 - [Quarto Documentation: Custom Formats](https://quarto.org/docs/extensions/formats.html)
 - [Quarto Revealjs Clean Theme](https://github.com/grantmcdermott/quarto-revealjs-clean) by [Grant McDermott](https://github.com/grantmcdermott)
 
+## Learn more
+
+- [Documentation](https://quarto.thecoatlessprofessor.com/illinois-revealjs/)
+- [Release notes](https://quarto.thecoatlessprofessor.com/illinois-revealjs/qillinois-revealjs-release-notes.html)
+- [Blog posts](https://blog.thecoatlessprofessor.com/projects/illinois-revealjs/)
+
 ## License
 
 illinois-revealjs is licensed under AGPL-3.0-or-later with an exception: what you write and render with illinois-revealjs stays yours, along with the output, under any terms you like. See [LICENSE](LICENSE) and [LICENSE-EXCEPTION.md](LICENSE-EXCEPTION.md).
