@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://coatless-quarto.github.io/illinois-revealjs/template.html</loc>
-    <lastmod>2026-11-06T15:32:21.369Z</lastmod>
-  </url>
-  <url>
     <loc>https://coatless-quarto.github.io/illinois-revealjs/qillinois-revealjs-release-notes.html</loc>
-    <lastmod>2026-11-06T15:06:39.495Z</lastmod>
+    <lastmod>2026-11-27T03:51:49.172Z</lastmod>
   </url>
   <url>
     <loc>https://coatless-quarto.github.io/illinois-revealjs/index.html</loc>
-    <lastmod>2026-11-06T15:06:39.495Z</lastmod>
+    <lastmod>2026-11-27T03:51:49.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coatless-quarto.github.io/illinois-revealjs/template.html</loc>
+    <lastmod>2026-11-27T03:52:56.725Z</lastmod>
   </url>
 </urlset>
