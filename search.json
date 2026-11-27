@@ -4,7 +4,40 @@
     "href": "qillinois-revealjs-release-notes.html",
     "title": "Release Notes",
     "section": "",
-    "text": "Formally implemented the Illinois-inspired Revealjs theme for Quarto as a Quarto Custom Format Extension.",
+    "text": "illinois-revealjs now requires Quarto 1.11 or later.\n\n\n\n\n\nThe theme compiles without an SCSS error, so its exported CSS variables are available to slides and no _quarto_internal_scss_error.scss file is left in the project.\nThe template’s install instructions point to coatless-quarto/illinois-revealjs and use quarto add.\n\n\n\n\n\nA documentation site covers installing the theme, using it, and its settings.",
+    "crumbs": [
+      "Extra",
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "qillinois-revealjs-release-notes.html#breaking-changes",
+    "href": "qillinois-revealjs-release-notes.html#breaking-changes",
+    "title": "Release Notes",
+    "section": "",
+    "text": "illinois-revealjs now requires Quarto 1.11 or later.",
+    "crumbs": [
+      "Extra",
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "qillinois-revealjs-release-notes.html#bug-fixes",
+    "href": "qillinois-revealjs-release-notes.html#bug-fixes",
+    "title": "Release Notes",
+    "section": "",
+    "text": "The theme compiles without an SCSS error, so its exported CSS variables are available to slides and no _quarto_internal_scss_error.scss file is left in the project.\nThe template’s install instructions point to coatless-quarto/illinois-revealjs and use quarto add.",
+    "crumbs": [
+      "Extra",
+      "Release Notes"
+    ]
+  },
+  {
+    "objectID": "qillinois-revealjs-release-notes.html#documentation",
+    "href": "qillinois-revealjs-release-notes.html#documentation",
+    "title": "Release Notes",
+    "section": "",
+    "text": "A documentation site covers installing the theme, using it, and its settings.",
     "crumbs": [
       "Extra",
       "Release Notes"
@@ -14,8 +47,8 @@
     "objectID": "qillinois-revealjs-release-notes.html#features",
     "href": "qillinois-revealjs-release-notes.html#features",
     "title": "Release Notes",
-    "section": "",
-    "text": "Formally implemented the Illinois-inspired Revealjs theme for Quarto as a Quarto Custom Format Extension.",
+    "section": "Features",
+    "text": "Features\n\nFormally implemented the Illinois-inspired Revealjs theme for Quarto as a Quarto Custom Format Extension.",
     "crumbs": [
       "Extra",
       "Release Notes"
