@@ -8,7 +8,7 @@ format:
     toc: true
 ---
 
-# 1.1.0-dev.1: ???? (??-??-????)
+# 1.1.0: Orange and Blue (11-26-2026)
 
 ## Breaking changes
 
