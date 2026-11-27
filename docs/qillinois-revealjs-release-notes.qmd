@@ -8,6 +8,21 @@ format:
     toc: true
 ---
 
+# 1.1.0-dev.1: ???? (??-??-????)
+
+## Breaking changes
+
+- illinois-revealjs now requires Quarto 1.11 or later.
+
+## Bug fixes
+
+- The theme compiles without an SCSS error, so its exported CSS variables are available to slides and no `_quarto_internal_scss_error.scss` file is left in the project.
+- The template's install instructions point to `coatless-quarto/illinois-revealjs` and use `quarto add`.
+
+## Documentation
+
+- A documentation site covers installing the theme, using it, and its settings.
+
 # 1.0.0: Illinois-inspired Revealjs Theme for Quarto (05-25-2023)
 
 ## Features
